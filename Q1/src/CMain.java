@@ -11,6 +11,7 @@ public class CMain {
 		double att;
 		
 		//Scanner to ask for input
+		@SuppressWarnings("resource")
 		Scanner user_input = new Scanner(System.in);
 		
 		System.out.print("How many touchdowns does the player have: ");
