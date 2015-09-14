@@ -11,7 +11,6 @@ public class CMain {
 		double att;
 		
 		//Scanner to ask for input
-		@SuppressWarnings("resource")
 		Scanner user_input = new Scanner(System.in);
 		
 		System.out.print("How many touchdowns does the player have: ");
@@ -24,6 +23,7 @@ public class CMain {
 		comp = user_input.nextDouble();
 		System.out.print("How many attempted passes: ");
 		att = user_input.nextDouble();
+		user_input.close();
 		
 		//Declaring more variables
 		double cp;
